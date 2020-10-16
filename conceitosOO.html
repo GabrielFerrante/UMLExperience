@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <!-- Materialize CSS -->
+    
+    <link rel="icon" type="imagem/png" href="imagens/logoUML.png" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>UML Experience</title>
+  </head>
+  <body >
+    <div class="container-fluid">
+    <a name="topo"></a>
+    <!--CABEÇALHO -->
+      <header class="row" id="idCabecalho">
+        <div class="col-sm-4" id="divImagem" >
+          <figure>
+            <a href="index.html"><img src="imagens/logoUML.png"><h2 class="h2">Experience</h2></a>
+
+          </figure>
+
+        </div>
+        <div class="col-sm-6">
+	
+          <nav class="navbar navbar-expand-lg navbar-light bg-light " id="navBarCabe">
+      			<div class="navbar-collapse titulosBotoesNavBar" id="navbarNavDropdown">
+      			  <ul class="navbar-nav mx-auto">
+      				 <li class="nav-item active" >
+      				  <a class="nav-link " href="historia.html"><h5>História</h5> <span class="sr-only">(current)</span></a>
+      				  </li>
+      			  </ul>
+      			</div>
+      			 <div class="navbar-collapse titulosBotoesNavBar" id="navbarNavDropdown">
+      			  <ul class="navbar-nav mx-auto">
+      				 <li class="nav-item active ">
+      				  <a class="nav-link" href="conceitosOO.html"><h5 >Conceitos OO</h5> <span class="sr-only">(current)</span></a>
+      				  </li>
+      			  </ul>
+      			</div>
+      			<div class="navbar-collapse titulosBotoesNavBar" id="navbarNavDropdown">
+              <ul class="navbar-nav mx-auto">
+               <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" style="color: black;" href="#"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <h5>Diagramas</h5>
+                </a>
+                <div class="dropdown-menu  " aria-labelledby="navbarDropdown">
+                  <h5 class="dropdown-item  bg-dark" style="color: white;" href="#">Estruturais</h5>
+                    <a class="dropdown-item titulosBotoesNavBar pl-5" href="Dclasses.html"><h6>Classes</h6></a>
+                    <a class="dropdown-item titulosBotoesNavBar pl-5" href="#"><h6>Objetos</h6></a>
+                    <a class="dropdown-item titulosBotoesNavBar pl-5" href="#"><h6>Componentes</h6></a>
+                    <a class="dropdown-item titulosBotoesNavBar pl-5" href="#"><h6>Implantação</h6></a>
+                    <a class="dropdown-item titulosBotoesNavBar pl-5" href="#"><h6>Pacotes</h6></a>
+                    <a class="dropdown-item titulosBotoesNavBar pl-5" href="#"><h6>Estrutura </h6></a>
+                  <div class="dropdown-divider">
+                    
+                  </div>
+                  <h5 class="dropdown-item bg-dark" style="color: white;"href="#">Comportamentais</h5>
+                    <a class="dropdown-item titulosBotoesNavBar pl-5" href="#"><h6>Casos de Uso</h6></a>
+                    <a class="dropdown-item titulosBotoesNavBar pl-5" href="#"><h6>Transição de Estados</h6></a>
+                    <a class="dropdown-item titulosBotoesNavBar pl-5" href="#"><h6>Estrutura </h6></a>
+                  <div class="dropdown-divider">
+                    
+                  </div>
+                  <h5 class="dropdown-item  bg-dark" style="color: white;" href="#">Interação</h5>
+                    <a class="dropdown-item titulosBotoesNavBar pl-5" href="#"><h6>Sequência</h6></a>
+                    <a class="dropdown-item titulosBotoesNavBar pl-5" href="#"><h6>Interação </h6></a>
+                    <a class="dropdown-item titulosBotoesNavBar pl-5" href="#"><h6>Comunicação</h6></a>
+                    <a class="dropdown-item titulosBotoesNavBar pl-5" href="#"><h6>Tempo</h6></a>
+                </div>
+              </li>
+              </ul>
+            </div>
+  			
+      			<div class="navbar-collapse titulosBotoesNavBar" id="navbarNavDropdown">
+      			  <ul class="navbar-nav mx-auto">
+      				 <li class="nav-item active text-center">
+      				  <a class="nav-link" href="https://www.uml.org" target="_blank"><h5>Site Oficial</h5> <span class="sr-only">(current)</span></a>
+      				  </li>
+      			  </ul>
+      			</div>
+          </nav>
+        </div>
+        
+        
+
+       
+        
+
+        
+      </header>
+      <!--PRINCIPAL -->
+      <main id="principal" class="p-2">
+      	<div class="row" >
+      		<nav class="col-sm-2" id="menuLateralOO">
+      			<nav id="navbar-example3" class="navbar navbar-light bg-light">
+				  <a class="navbar-brand fundoBotoesNav ">Menu</a>
+				  <a  class="nav-link fundoBotoesNav" href="#OrientaçãoObjetos">O paradigma</a>
+				  <nav class="nav ">
+				    <a class="nav-link fundoBotoesNav" href="#Classe">Classe</a>
+				    <nav class="nav nav-pills flex-column">
+				      <a class="nav-link ml-3 my-1 fundoBotoesNav" href="#Atributos">Atributos</a>
+				      <a class="nav-link ml-3 my-1 fundoBotoesNav" href="#Comportamentos">Comportamentos</a>
+				      <a class="nav-link ml-3 my-1 fundoBotoesNav" href="#Abstrata">Abstrata</a>
+				      <a class="nav-link ml-3 my-1 fundoBotoesNav" href="#Objeto">Objeto</a>
+
+				    </nav>
+				    <a class="nav-link fundoBotoesNav" href="#Herança">Herança</a>
+				    <a class="nav-link fundoBotoesNav" href="#Polimorfismo">Polimorfismo</a>
+				    <nav class="nav nav-pills ">
+				      
+				      	<nav class="nav nav-pills ">
+					      <a class="nav-link ml-3 my-1 fundoBotoesNav" href="#Sobrecarga">Sobrecarga</a>
+					      <a class="nav-link ml-3 my-1 fundoBotoesNav" href="#Sobrescrita">Sobrescrita</a>
+				    	</nav>
+				    </nav>
+				    <a class="nav-link fundoBotoesNav" href="#Interfaces">Interfaces</a>
+				    <a class="nav-link fundoBotoesNav" href="#Encapsulamento">Encapsulamento</a>
+				    
+				    
+				  </nav>
+				</nav>
+      		</nav>
+
+      		<section class="col-sm-8" id="divConteudosOO">
+      			<div data-spy="scroll" data-target="#navbar-example3" data-offset="0">
+      			  <h4 id="OrientaçãoObjetos" class="titulosOO pl-2">O paradigma Orientado a Objetos</h4>	
+      			  <article class="p-2">
+      			  	Programação Orientada a Objetos (também conhecida pela sua sigla POO) é um modelo de análise, projeto e programação de software baseado na composição e interação entre diversas unidades chamadas de 'objetos'. A POO é um dos 4 principais paradigmas de programação (as outras são programação imperativa, funcional e lógica).<br> <br>Os objetos são operados com o conceito de 'this' (isso) ou 'self' (si), de forma que seus métodos (muitas vezes) modifiquem os dados da própria instância. Os programas são arquitetados através de objetos que interagem entre si. Dentre as várias abordagens da POO, as baseadas em classes são as mais comuns: objetos são instâncias de classes, o que em geral também define o tipo do objeto.
+      			  	<br>
+      			  	<br>
+      			  </article>
+				  <h4 id="Classe" class="titulosOO pl-2">Classe</h4>
+				  <article class="p-2">
+				  	Em orientação a objetos, uma classe é uma descrição que abstrai um conjunto de objetos com características similares. Mais formalmente, é um conceito que encapsula abstrações de dados e procedimentos que descrevem o conteúdo e o comportamento de entidades do mundo real, representadas por objetos.
+				  	Veja um exemplo na linguagem Python:
+				  	<code>
+				  		<br>Class Person:<br>
+						  &nbsp def __init__(self, name, age):<br>
+						  &nbsp &nbsp self.name = name<br>
+						 &nbsp  &nbsp self.age = age<br>
+							<br>	
+						  &nbsp def myfunc(self):<br>
+						  &nbsp &nbsp print("Hello my name is " + self.name)<br>
+						  <br>
+				  			<br>
+				  	</code>
+				  </article>
+				  <h6 id="Atributos" class="titulosOO pl-2">Atributos</h6>
+				  <article class="p-2">
+				  	Os Atributos em Programação Orientada a Objetos são os elementos que definem a estrutura de uma classe. Os atributos também são conhecidos como variáveis de classe.
+				  	<code>
+				  		<br>
+						  &nbsp &nbsp self.name = name<br>
+						 &nbsp  &nbsp self.age = age<br>
+						 <br>
+				  			<br>
+				  	</code>
+				  </article>
+				  <h6 id="Comportamentos" class="titulosOO pl-2">Comportamentos</h6>
+				  <article class="p-2">
+				  	Em orientação a objetos, uma Função (ou função membro) é uma sub-rotina (ou procedimento ou função) associada a um objeto, e que possui acesso aos seus dados, as variáveis membro. Ele é executado por um objeto ao receber uma mensagem. Os métodos determinam o comportamento dos objetos de uma classe e são análogos às funções ou procedimentos da programação estruturada. O envio de mensagens (chamada de métodos) pode alterar o estado de um objeto.
+				  	<code>
+				  		<br>	
+						  &nbsp def myfunc(self):<br>
+						  &nbsp &nbsp print("Hello my name is " + self.name)<br>
+						  <br>
+				  			<br>
+				  		
+				  	</code>
+				  </article>
+				  <h6 id="Abstrata" class="titulosOO pl-2">Classe Abstrata</h6>
+				  <article class="p-2">
+				  	As classes abstratas são as que não permitem realizar qualquer tipo de instância. São classes feitas especialmente para serem modelos para suas classes derivadas. As classes derivadas, via de regra, deverão sobrescrever os métodos para realizar a implementação dos mesmos. As classes derivadas das classes abstratas são conhecidas como classes concretas.
+				  	<code>
+				  		<br>
+
+				  		import abc <br>
+				  		class Shape(metaclass=abc.ABCMeta): <br>
+
+    						&nbsp &nbsp @abc.abstractmethod <br>
+    						&nbsp def method_to_implement(self, input):<br>
+
+        					 &nbsp &nbsp return<br>
+        					 <br>
+
+
+				  	</code>
+
+				  </article>
+				  <h6 id="Objeto" class="titulosOO pl-2">Objeto</h6>
+				  <article class="p-2">
+				  	Em programação orientada a objetos, chama-se instância de uma classe, um objeto cujo comportamento e estado são definidos pela classe. No exemplo abaixo, a variável <code> <var> objetoPessoa</var></code> ela recebe a instância da classe Person, passando os parâmetros definidos em seu construtor.
+				  	<code>
+				  		<br>
+				  		objetoPessoa = Person("Gabriel","19")
+				  		<br>
+				  		<br>
+				  	</code>
+				  </article>
+				  <h4 id="Herança" class="titulosOO pl-2">Herança</h4>
+				  <article class="p-2">
+				  	A Herança é um conceito do paradigma da orientação à objetos que determina que uma classe (filha) pode herdar atributos e métodos de uma outra classe (pai) e, assim, evitar que haja muita repetição de código. Demonstração de como herdar de uma classe:
+				  	<code>
+				  		<br>
+				  		Class Carro(Veiculo):<br>
+				  		&nbsp ...
+				  		<br>
+				  		&nbsp ...
+				  		<br>
+				  		<br>
+				  	</code>
+				  </article>
+				  <h4 id="Polimorfismo" class="titulosOO pl-2">Polimorfismo</h4>
+				  <article class="p-2">
+				  	Polimorfismo é a capacidade de classes ter comportamentos com mesma assinatura porém com processamentos diferentes e/ou as classes derivadas da mesma conseguirem modificar comportamentos definidos por suas classes "Pai" para dar singularidade em seu comportamento.
+				  	<br>
+				  			<br>
+				  </article>
+				  <h6 id="Sobrecarga" class="titulosOO pl-2">Sobrecarga</h6>
+				  <article class="p-2">
+				  	A sobrecarga de métodos (overload) é um conceito do polimorfismo que consiste basicamente em criar variações de um mesmo método, ou seja, a criação de dois ou mais métodos com nomes totalmente iguais em uma classe. A Sobrecarga permite que utilizemos o mesmo nome em mais de um método contanto que suas listas de argumentos sejam diferentes para que seja feita a separação dos mesmos.
+				  	<code>
+				  		<br>
+				  		Class Veiculo:<br>
+
+				  			&nbsp def abastecer(self,litros):<br>
+				  			&nbsp &nbsp self.Tanque += litros<br>
+
+				  		<br>
+				  		&nbsp def abastecer(self,litros,tipo):<br>
+				  			&nbsp &nbsp if tipo == "Carro" and (self.Tanque += litros) < 50 :<br>
+				  			&nbsp &nbsp &nbsp  self.Tanque += litros<br>
+				  			&nbsp &nbsp else: <br>
+				  			&nbsp &nbsp &nbsp print("Tanque não suporta esta quantidade")
+				  			<br>
+				  			<br>
+
+				  		
+				  		
+				  	</code>
+				  </article>
+				  <h6 id="Sobrescrita" class="titulosOO pl-2">Sobrescrita</h6>
+				  <article class="p-2">
+				  	A Sobrescrita de métodos (override) é um conceito do polimorfismo que nos permite reescrever um método, ou seja, podemos reescrever nas classes filhas métodos criados inicialmente na classe pai, os métodos que serão sobrepostos, diferentemente dos sobrecarregados, devem possuir o mesmo nome, tipo de retorno e quantidade de parâmetros do método inicial, porém o mesmo será implementado com especificações da classe atual, podendo adicionar um algo a mais ou não.
+				  	<code>
+				  		<br>
+				  		Class Veiculo:<br>
+
+				  			&nbsp def abastecer(self,litros):<br>
+				  			&nbsp &nbsp self.Tanque += litros<br>
+
+				  		<br>
+				  		Class Carro(Veiculo):<br>
+				  		&nbsp def abastecer(self,litros):<br>
+				  			&nbsp &nbsp if (self.Tanque += litros) < 50:<br>
+				  			&nbsp &nbsp &nbsp  self.Tanque += litros<br>
+				  			&nbsp &nbsp else: <br>
+				  			&nbsp &nbsp &nbsp print("Tanque não suporta esta quantidade")
+				  			<br>
+				  			<br>
+				  	</code>
+				  </article>
+				  <h4 id="Interfaces" class="titulosOO pl-2">Interfaces</h4>
+				  <article class="p-2">
+				  	Podemos definir como interface o contrato entre a classe e o mundo exterior. Quando uma classe implementa uma interface, se compromete a fornecer o comportamento publicado por esta interface. Diferentemente das classes abstratas, as classes abstratas podem possuir outros métodos implementados além dos métodos abstratos que a fazem ser abstrata. Uma interface não pode ter implementação alguma.
+
+				  </article >
+				  <h4 id="Encapsulamento" class="titulosOO pl-2">Encapsulamento</h4>
+				  <article class="p-2">
+				  	Uma parte importante da programação orientada ao objeto é o recurso de encapsulamento. Esse recurso envolve agrupar métodos e atributos em pacotes que contém diferentes formas de acesso. Por exemplo, certos métodos e atributos são empacotados como públicos e podem ser acessados por qualquer classe outros pacotes vão ter alguma restrição de acesso – os métodos e atributos só poderão ser acessadas por uma classe filha ou nenhuma outra classe pode acessar.
+				  	<code>
+				  		<br>
+				  		class Veiculo:<br>
+						    #Construtor vazio<br>
+						&nbsp    def __init__(self):<br>
+						&nbsp &nbsp	    pass<br>
+							#Encapsulamento<br>
+						&nbsp    def setCor(self,cor):<br>
+						&nbsp &nbsp	    self.__cor = cor<br>
+						&nbsp    def getCor(self):<br>
+						  &nbsp &nbsp      return self.__cor<br>
+
+					&nbsp	    def setMarca(self,marca):<br>
+						&nbsp	&nbsp    self.__marca = marca<br>
+						        
+					&nbsp   def getMarca(self):<br>
+					&nbsp &nbsp		    return self.__marca<br>
+
+					&nbsp 	    def setRodas(self,rodas):<br>
+					&nbsp &nbsp		    self.__rodas = rodas<br>
+					&nbsp 	    def getRodas(self):<br>
+						&nbsp &nbsp	    return self.__rodas<br>
+
+						&nbsp    def setTanque(self,tanque):<br>
+						&nbsp &nbsp	    self.__tanque = tanque<br>
+					&nbsp	    def getTanque(self):<br>
+						&nbsp &nbsp	    return self.__tanque<br>
+
+						&nbsp    def abastecer(self,litros):<br>
+						   &nbsp &nbsp     self.setTanque(self.getTanque()+litros)<br>
+						   <br>
+				  	</code>
+				  </article>
+				  
+
+				</div>
+      		</section>
+      	</div>
+      	
+    
+
+      </main>
+      
+      
+      
+      <footer class="row pt-2" id="Rodape">
+        
+          <div class="col-sm-3">
+          </div>
+          <div class="col-sm-6" id="divContato" >
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#contato" role="tab" aria-controls="home" aria-selected="true">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#sobre" role="tab" aria-controls="profile" aria-selected="false">Sobre</a>
+              </li>
+             
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="contato" role="tabpanel" aria-labelledby="home-tab">
+                <address>
+                 <i class="far fa-envelope"></i> gabrielsferrante@hotmail.com
+                  <br>
+                  <i class="fas fa-map-marker-alt"></i> Instituição - IFSP - Câmpus Catanduva, SP, Brazil
+                  <br>
+                  <i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/gabriel-s-404124141/" target="_blank"> Meu perfil </a>
+
+                </address>
+              </div>
+              <div class="tab-pane fade" id="sobre" role="tabpanel" aria-labelledby="profile-tab">
+                Meu nome é Gabriel Ferrante e sou estudante do curso de tecnologia em Análise e Desenvolvimento de Sistemas pelo IFSP - Câmpus Catanduva.
+                Entusiasta na área de Engenharia de Software, Análise de Sistemas e amante de UML.
+                <br>
+                  Currículo Lattes - <a href="http://lattes.cnpq.br/2972111461924346" target="_blank">http://lattes.cnpq.br/2972111461924346 </a>
+
+
+              </div>
+             
+            </div>
+             <div style=" margin-top: 20px; text-align: center;">
+                <span class="badge badge-light">Development by: Gabriel Ferrante</span>
+             </div>
+             
+          </div>
+          <div id="divAncora" >
+              <a href="#topo"><i class="fas fa-arrow-up">Topo</i></a>
+          </div> 
+
+          
+      </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--Js Fontawesome -->
+    <script src="https://kit.fontawesome.com/562a8b6e1a.js" crossorigin="anonymous"></script>
+  
+    </div>
+  </body>
+</html>

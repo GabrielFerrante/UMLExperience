@@ -1,0 +1,1 @@
+Dentre os diagramas apresentado na INDEX só o de Classes está feito, no caso a página dele seria o modelo para os outros.

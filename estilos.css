@@ -1,0 +1,170 @@
+﻿
+
+/*CSS CABEÇALHO*/
+#idCabecalho{
+	min-height: 150px;
+	background-color: black;
+	
+	align-items: center;
+	
+}
+#divImagem{
+	margin-top: 5px;
+}
+.h2{
+	display: inline;
+}
+
+#navBarCabe{
+	text-align: center;
+	border-style: solid;
+	border-color: black;
+	border-radius: 35px;
+	margin-bottom: 10px;
+
+}
+
+.titulosBotoesNavBar{
+	color: black;
+	
+}
+.titulosBotoesNavBar:active{
+	background-color: transparent;
+}
+#carrossel{
+	height:400px;
+}
+
+
+
+
+/*CSS PRINCIPAL*/
+
+#principal{
+	min-height: 500px;
+	margin-top: 10px;
+	
+	margin-bottom: 10px;
+	max-width: 100%;
+
+
+}
+
+.titulos{
+	
+	background-color: black;
+	border-style: solid;
+	border-color: black;
+	border-radius: 25px;
+	margin-bottom: 10px;
+	color:white;
+	
+}
+.titulosOO{
+	color:black;
+	margin-bottom: 10px;
+}
+
+.btn-primary{
+	background-color: #f41000 !important;
+}
+.card-body{
+	min-height:270px;
+	
+	max-width: 540px;
+	display: block;
+
+
+}
+.cardsComSombras:hover{
+	-webkit-box-shadow: 3px -3px 18px 9px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px -3px 18px 9px rgba(0,0,0,0.75);
+box-shadow: 3px -3px 18px 9px rgba(0,0,0,0.75);
+border-radius: 10px;
+margin-bottom: 10px;
+
+
+}
+
+#menuLateralOO{
+	border-style: groove;
+	border-color: black;
+	border-radius: 20px;
+	max-height: 600px; 
+	min-width: 200px;
+	color: black ;
+	
+}
+#divConteudosOO{
+	min-height: 500px;
+	-webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+}
+.fundoBotoesNav{
+	color: black;
+	font-weight: 600;
+}
+
+
+
+/*CSS RODAPÉ*/
+#divAncora{
+	
+
+	border-style: solid;
+	border-color: gray;
+	border-radius: 90px;
+	margin-left: 70%;
+	padding: 4px;
+	height: 40px;
+	width: 60px;
+	margin-bottom: 3px;
+	
+	
+}
+#Rodape{
+	position: relative;
+	min-height: 200px;
+
+	background-color: black;
+}
+#divContato{
+	color: white;
+	
+}
+a{
+	text-decoration: none !important;
+
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width: 578px){
+	#divAncora{
+		margin-left: 80%;
+	}
+	.card-img{
+		height: 200px;
+		max-width: 200px;
+	}
+	.card-body{
+		min-height: 200px;
+	}
+	
+	.titulosBotoesNavBar{
+	
+		margin-left: 0px;
+	}
+	#menuLateralOO{
+		display: none;
+	}
+	.imgExemplo{
+		width:100%;
+
+	}
+
+	
+
+}
+
+
